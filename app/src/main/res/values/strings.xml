@@ -4,4 +4,7 @@
     <string name="title">Vegetarian items</string>
     <string name="action_1">View Items</string>
     <string name="title2">Non-veg items</string>
+    <string name="foodTitle">Food Name</string>
+    <string name="price">Rs. 150</string>
+    <string name="foodName">Veg Bhaat Set</string>
 </resources>

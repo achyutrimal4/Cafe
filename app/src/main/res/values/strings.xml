@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cafe</string>
+    <string name="content_description_media">Veg items</string>
+    <string name="title">Vegetarian items</string>
+    <string name="action_1">View Items</string>
+    <string name="title2">Non-veg items</string>
+</resources>

@@ -15,44 +15,42 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img"
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/veg" />
-
 
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
             android:layout_toEndOf="@+id/img"
             android:text="@string/foodName"
-            android:textSize="25sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/title"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="20dp"
             android:layout_toEndOf="@+id/img"
             android:text="@string/price"
             android:textColor="@color/red"
-            android:textSize="20sp" />
+            android:textSize="14sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/addButton"
-            style="@style/Widget.Material3.CardView.Outlined"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/price"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="13dp"
+            android:layout_marginStart="20dp"
             android:layout_toEndOf="@+id/img"
             android:backgroundTint="#0000"
             android:text="+"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="16sp"
             app:strokeColor="@color/grey" />
 
         <TextView
@@ -61,25 +59,23 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/price"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/addButton"
             android:text="1"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/removeButton"
-            style="@style/Widget.Material3.CardView.Outlined"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/price"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="13dp"
             android:layout_toEndOf="@+id/quantityCounter"
             android:backgroundTint="#0000"
             android:text="-"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="16sp"
             app:strokeColor="@color/grey" />
     </RelativeLayout>
 

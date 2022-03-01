@@ -7,4 +7,7 @@
     <string name="foodTitle">Food Name</string>
     <string name="price">Rs. 150</string>
     <string name="foodName">Veg Bhaat Set</string>
+    <string name="yourSelection">Your Selection</string>
+    <string name="nonveg">Nonveg</string>
+    <string name="drinks">Drinks</string>
 </resources>

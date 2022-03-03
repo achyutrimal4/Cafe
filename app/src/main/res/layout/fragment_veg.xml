@@ -12,10 +12,10 @@
         tools:context=".data_list">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginStart="5dp"
             android:id="@+id/recyclerView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:padding="5dp"
             tools:listitem="@layout/card_view" />
     </RelativeLayout>
 

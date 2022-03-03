@@ -9,11 +9,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.itemHolder> {
-    private final String[] itemsList;
+import java.util.List;
 
-    public ItemListAdapter(String[] itemsList) {
-        this.itemsList = itemsList;
+public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.itemHolder> {
+    List<VegModelClass> vegItems;
+
+    public ItemListAdapter(List<VegModelClass> vegItems) {
+        this.vegItems = vegItems;
     }
 
     @NonNull
@@ -25,24 +27,26 @@ public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.itemHo
 
     @Override
     public void onBindViewHolder(@NonNull itemHolder holder, int position) {
-        String value = itemsList[position];
-        holder.title.setText(value);
+        holder.foodName.setText(vegItems.get(position).getFoodName());
+        holder.price.setText(vegItems.get(position).getPrice());
+        holder.image.setImageResource(vegItems.get(position).getImage());
+
     }
 
     @Override
     public int getItemCount() {
-        return itemsList.length;
+        return vegItems.size();
     }
 
     public class itemHolder extends RecyclerView.ViewHolder {
-        private final ImageView img;
-        private final TextView title;
+        private final ImageView image;
+        private final TextView foodName;
         private final TextView price;
 
         public itemHolder(View view) {
             super(view);
-            img = view.findViewById(R.id.img);
-            title = view.findViewById(R.id.title);
+            image = view.findViewById(R.id.img);
+            foodName = view.findViewById(R.id.title);
             price = view.findViewById(R.id.price);
 
         }

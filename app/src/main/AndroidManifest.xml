@@ -13,9 +13,6 @@
             android:name=".Tabs"
             android:exported="false" />
         <activity
-            android:name=".data_list"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

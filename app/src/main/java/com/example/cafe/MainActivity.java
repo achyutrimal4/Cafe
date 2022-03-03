@@ -29,13 +29,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        viewItems2.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent toDataList = new Intent(MainActivity.this, data_list.class);
-                startActivity(toDataList);
-            }
-        }));
 
     }
 }

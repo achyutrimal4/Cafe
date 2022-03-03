@@ -10,4 +10,7 @@
     <string name="yourSelection">Your Selection</string>
     <string name="nonveg">Nonveg</string>
     <string name="drinks">Drinks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="veg">Veg items</string>
 </resources>

@@ -5,7 +5,12 @@
       <map>
         <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/activity_data_list.xml" value="0.25" />
         <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/activity_tabs.xml" value="0.22962962962962963" />
         <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/card_view.xml" value="0.25" />
+        <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/fragment_drinks.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/fragment_non_veg.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/fragment_selection.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/achyut/AndroidStudioProjects/Cafe/app/src/main/res/layout/fragment_veg.xml" value="0.1716485507246377" />
       </map>
     </option>
   </component>

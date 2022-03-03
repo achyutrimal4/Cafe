@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    android:backgroundTint="#0000"
     android:elevation="3dp"
     android:padding="5dp">
 
@@ -41,6 +42,7 @@
             android:textSize="14sp" />
 
         <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.CardView.Outlined"
             android:id="@+id/addButton"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
@@ -48,8 +50,8 @@
             android:layout_marginStart="20dp"
             android:layout_toEndOf="@+id/img"
             android:backgroundTint="#0000"
+            android:textColor="@color/grey"
             android:text="+"
-            android:textColor="@color/black"
             android:textSize="16sp"
             app:strokeColor="@color/grey" />
 
@@ -62,11 +64,13 @@
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/addButton"
             android:text="1"
+
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/removeButton"
+            style="@style/Widget.Material3.CardView.Outlined"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/price"
@@ -74,7 +78,7 @@
             android:layout_toEndOf="@+id/quantityCounter"
             android:backgroundTint="#0000"
             android:text="-"
-            android:textColor="@color/black"
+            android:textColor="@color/grey"
             android:textSize="16sp"
             app:strokeColor="@color/grey" />
     </RelativeLayout>
